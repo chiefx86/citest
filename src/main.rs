@@ -30,6 +30,7 @@ fn some_test() {
 }
 
 #[test]
+#[should_panic]
 fn some_fail() {
 	assert!(false);
 }
