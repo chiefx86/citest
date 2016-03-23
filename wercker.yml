@@ -1,4 +1,4 @@
-box: asaskevich/rust-latest
+box: docker pull octplane/docker-rust
 build:
   steps:
     - script:
