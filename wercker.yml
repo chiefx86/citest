@@ -1,0 +1,10 @@
+box: asaskevich/rust-latest
+build:
+  steps:
+    - script:
+        name: build
+        code: cargo run
+          
+    - script:
+        name: test
+        code: cargo test

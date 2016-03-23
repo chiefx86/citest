@@ -1,0 +1,7 @@
+[package]
+name = "blah"
+version = "0.1.0"
+authors = ["Kevin Hamacher <kevin.hamacher@ruhr-uni-bochum.de>"]
+
+[dependencies]
+rustc-serialize = "0.3.18"
