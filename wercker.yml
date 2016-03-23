@@ -1,4 +1,4 @@
-box: docker pull octplane/docker-rust
+box: octplane/docker-rust
 build:
   steps:
     - script:
